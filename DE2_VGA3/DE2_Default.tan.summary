@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.947 ns
+From           : KEY[0]
+To             : y_walker[2]
+From Clock     : --
+To Clock       : CLOCK_27
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.212 ns
+From           : VGA_Controller:u1|V_Cont[2]
+To             : VGA_B[6]
+From Clock     : CLOCK_27
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -6.180 ns
+From           : SRAM_DQ[14]
+To             : VGA_Controller:u1|Cur_Color_R[8]
+From Clock     : --
+To Clock       : CLOCK_27
+Failed Paths   : 0
+
+Type           : Clock Setup: 'VGA_Audio_PLL:p1|altpll:altpll_component|_clk0'
+Slack          : 33.360 ns
+Required Time  : 25.20 MHz ( period = 39.682 ns )
+Actual Time    : 158.18 MHz ( period = 6.322 ns )
+From           : x_walker[6]
+To             : x_walker[7]
+From Clock     : VGA_Audio_PLL:p1|altpll:altpll_component|_clk0
+To Clock       : VGA_Audio_PLL:p1|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLOCK_50'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 261.30 MHz ( period = 3.827 ns )
+From           : Reset_Delay:r0|Cont[5]
+To             : Reset_Delay:r0|Cont[2]
+From Clock     : CLOCK_50
+To Clock       : CLOCK_50
+Failed Paths   : 0
+
+Type           : Clock Hold: 'VGA_Audio_PLL:p1|altpll:altpll_component|_clk0'
+Slack          : 0.391 ns
+Required Time  : 25.20 MHz ( period = 39.682 ns )
+Actual Time    : N/A
+From           : state.test5
+To             : state.test5
+From Clock     : VGA_Audio_PLL:p1|altpll:altpll_component|_clk0
+To Clock       : VGA_Audio_PLL:p1|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

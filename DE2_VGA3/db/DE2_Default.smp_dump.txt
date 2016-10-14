@@ -1,0 +1,13 @@
+
+State Machine - |DE2_Default|state
+Name state.new_walker state.test1 state.test2 state.test3 state.test4 state.test5 state.test6 state.draw_walker state.update_walker state.init 
+state.init 0 0 0 0 0 0 0 0 0 0 
+state.update_walker 0 0 0 0 0 0 0 0 1 1 
+state.draw_walker 0 0 0 0 0 0 0 1 0 1 
+state.test6 0 0 0 0 0 0 1 0 0 1 
+state.test5 0 0 0 0 0 1 0 0 0 1 
+state.test4 0 0 0 0 1 0 0 0 0 1 
+state.test3 0 0 0 1 0 0 0 0 0 1 
+state.test2 0 0 1 0 0 0 0 0 0 1 
+state.test1 0 1 0 0 0 0 0 0 0 1 
+state.new_walker 1 0 0 0 0 0 0 0 0 1 
